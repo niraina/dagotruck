@@ -1,0 +1,45 @@
+/*color*/
+/*font-size*/
+.login {
+  background-image: url("../img/1.jpg"); }
+  .login .login-content {
+    padding: 65px; }
+    .login .login-content .login-btn {
+      font-size: 24px;
+      width: 367px;
+      height: 60px;
+      border-radius: 30px; }
+      @media (max-width: 1199.98px) {
+        .login .login-content .login-btn {
+          width: 275px; } }
+      @media (max-width: 991.98px) {
+        .login .login-content .login-btn {
+          width: auto;
+          font-size: 18px; } }
+  .login .info {
+    padding-top: 65px;
+    color: white;
+    text-align: center; }
+    .login .info h2 {
+      font-size: 62px;
+      font-weight: bold; }
+      @media (max-width: 1199.98px) {
+        .login .info h2 {
+          font-size: 52px; } }
+
+.class-nav {
+  background-color: #000267; }
+  .class-nav .title-nav {
+    font-size: 36px !important; }
+  .class-nav .class-navbar .class-item .class-link {
+    color: white !important;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .class-nav .class-navbar .class-item .class-link:hover {
+      color: #f6974f !important;
+      border-bottom: 2px solid #f6974f; }
+  .class-nav .btn-logout {
+    background-color: #f6974f;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
